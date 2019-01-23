@@ -1,12 +1,5 @@
-#def square_array(numbers)
-#  numbers.each do | []** |
-#   puts numbers
-#   numbers += 1
-# end
-
 def square_array(array)
-  # your code here
-  new_numbers = []
-  array.each { |x| new_numbers << x**2 }
-  new_numbers
+  new_numbers = [] # empty array to store elements
+  array.each { |i| new_numbers << i ** 2 } # use index of array and shovel method
+  return new_numbers # call method
 end
